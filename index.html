@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./app/css/style.css">
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="main">
+
+    <!-- Todo Header -->
+    <header class="header">
+      <a href="#" target="_blank">
+        <h2 class="logo">Todo</h2>
+      </a>
+
+      <div class="theme-buttons">
+        <img src="./images/icon-sun.svg" alt="" class="theme sun">
+        <img src="./images/icon-moon.svg" class="theme moon" alt="">
+      </div>
+    </header>
+
+    <!-- Todo Creator -->
+    <div class="todo-creator">
+      <div class="creator-selector"></div>
+      <input class="todo-creator-text" type="text" value="" placeholder="Create a Todo Item Here."/>
+    </div>
+
+    <!-- Todo List --> 
+
+    <section class="todo-list">
+
+      <div class="item-container">
+        <!-- Todo Item 1 -->
+      <div class="todo-item">
+        <div class="todo-content">
+          <div class="selector">
+            <img src="./images/icon-check.svg" alt="" class="check">
+          </div>
+          <div class="todo-item-text">Complete online Javascript course</div>
+        </div>
+
+        <img src="./images/icon-cross.svg" alt="" class="todo-item-close">
+      </div>
+
+      <!-- Todo Item 2 -->
+      <div class="todo-item">
+        <div class="todo-content">
+          <div class="selector">
+            <img src="./images/icon-check.svg" alt="" class="check">
+          </div>
+          <div class="todo-item-text">Jog around the park 3x </div>
+        </div>
+
+        <img src="./images/icon-cross.svg" alt="" class="todo-item-close">
+      </div>
+
+      <!-- Todo Item 3 -->
+      <div class="todo-item">
+        <div class="todo-content">
+          <div class="selector">
+            <img src="./images/icon-check.svg" alt="" class="check">
+          </div>
+          <div class="todo-item-text">10 minutes meditation </div>
+        </div>
+
+        <img src="./images/icon-cross.svg" alt="" class="todo-item-close">
+      </div>
+
+      <!-- Todo Item 4 -->
+      <div class="todo-item">
+        <div class="todo-content">
+          <div class="selector">
+            <img src="./images/icon-check.svg" alt="" class="check">
+          </div>
+          <div class="todo-item-text">Read for 1hour</div>
+        </div>
+
+        <img src="./images/icon-cross.svg" alt="" class="todo-item-close">
+      </div>
+
+      <!-- Todo Item 5 -->
+      <div class="todo-item">
+        <div class="todo-content">
+          <div class="selector">
+            <img src="./images/icon-check.svg" alt="" class="check">
+          </div>
+          <div class="todo-item-text">Pick up groceries</div>
+        </div>
+
+        <img src="./images/icon-cross.svg" alt="" class="todo-item-close">
+      </div>
+
+      <!-- Todo Item 6 -->
+      <div class="todo-item">
+        <div class="todo-content">
+          <div class="selector">
+            <img src="./images/icon-check.svg" alt="" class="check">
+          </div>
+          <div class="todo-item-text">Complete Todo App on Frontend Mentor </div>
+        </div>
+
+        <img src="./images/icon-cross.svg" alt="" class="todo-item-close">
+      </div>
+      </div>
+
+      <!-- Todo Registra -->
+      <div class="todo-registra">
+        <div class="time"> <span class="number">5</span> time(s) left </div>
+
+        <div class="navigator">
+          <p class="all">All</p>
+          <p class="active">Active</p>
+          <p class="completed">Completed</p>
+        </div>
+        
+        <div class="complete">Clear Completed</div>
+      </div>
+
+    </section>
+
+    <div class="footer-text">Drag and drop to reorder list.</div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Vector-ozo" target="_blank" >Chiemerie Ozoemena</a>.
+  </div>
+
+  <script src="./app/js/app.js"></script>
+</body>
+</html>
