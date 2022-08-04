@@ -168,3 +168,12 @@ moon.addEventListener('click', () => {
     moon.style.display = "none";
     sun.style.display = "block";
 })
+
+
+// -------------------- Drag and Drop ------------------------
+
+let wrapper = document.querySelector('.wrapper');
+
+new Sortable(wrapper, {
+    animation: 350
+})

@@ -173,6 +173,7 @@ body.light-mode{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
     border-bottom: 1px solid var(--Very-Dark-Grayish-Blue);
 }
 
